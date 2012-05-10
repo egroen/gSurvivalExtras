@@ -28,6 +28,7 @@ import com.egroen.bukkit.gsurvivalextras.configuration.ConfigManager;
  * 
  * @author egroen
  */
+// TODO: finish permissions
 public class InfoSign extends SubModule implements CommandListener, Listener {
 
 	public InfoSign(MasterModule plugin) {
@@ -198,7 +199,7 @@ public class InfoSign extends SubModule implements CommandListener, Listener {
 		
 		// Handle the writing
 		if (event.getItem().getType() == Material.getMaterial(config.getString("settings.editTool"))) {
-			if (!event.getPlayer().hasPermission("InfoSign.edit")) return;			// No permissions to edit
+			if (!event.getPlayer().hasPermission("infosign.edit")) return;			// No permissions to edit
 			
 			_editBlocks.put(event.getPlayer().getName(), event.getClickedBlock());
 			event.getPlayer().sendMessage(ChatColor.GREEN+"You can now edit this sign!");

@@ -22,7 +22,6 @@ public class RSNetherrack extends SubModule implements Listener {
 
 	public RSNetherrack(MasterModule plugin) {
 		super(plugin);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
@@ -32,7 +31,6 @@ public class RSNetherrack extends SubModule implements Listener {
 
 	@Override
 	public void stop() {
-		// TODO Auto-generated method stub
 
 	}
 	

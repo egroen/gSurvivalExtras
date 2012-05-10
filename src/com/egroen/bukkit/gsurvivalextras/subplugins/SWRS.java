@@ -39,7 +39,6 @@ public class SWRS extends SubModule implements Listener {
 
 	@Override
 	public void stop() {
-		// TODO Auto-generated method stub
 		
 	}
 	
