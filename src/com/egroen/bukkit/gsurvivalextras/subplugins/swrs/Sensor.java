@@ -6,6 +6,15 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerMoveEvent;
 
+/**
+ * Sensor for SWRS
+ * 
+ * When a player is 2 blocks above sensor (direct sensor under the floor) it will power the sensor.
+ * You can combine sensors by destroying and replacing the transmitter for an extra sensor on same coords.
+ * This is possible since there is no check on the breaking.
+ * Not official way to do it, but I've made the plugin keep it in mind.
+ * @author egroen
+ */
 public class Sensor implements Listener {
 	@EventHandler
 	public void onPlayerMove(PlayerMoveEvent event) {

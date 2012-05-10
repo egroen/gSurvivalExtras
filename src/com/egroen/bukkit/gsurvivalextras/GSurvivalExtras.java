@@ -10,6 +10,16 @@ import org.bukkit.plugin.java.JavaPlugin;
 import com.egroen.bukkit.gsurvivalextras.command.CommandManager;
 import com.egroen.bukkit.gsurvivalextras.configuration.ConfigManager;
 
+/**
+ * The main 'gSurvivalExtras' plugin.
+ * Mainly used to hosting/providing submodules.
+ * Loads all classes and gives them the registration options.
+ * 
+ * todo: update system to use events to start/stop.
+ * 
+ * @author egroen
+ *
+ */
 public class GSurvivalExtras extends JavaPlugin implements MasterModule {
     public static GSurvivalExtras plugin;
     public static Logger logger;

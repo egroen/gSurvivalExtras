@@ -8,6 +8,9 @@ import org.bukkit.event.entity.EntityExplodeEvent;
 import com.egroen.bukkit.gsurvivalextras.MasterModule;
 import com.egroen.bukkit.gsurvivalextras.SubModule;
 
+/*
+ * Just a small thing to disable creeper damage to worlds...
+ */
 public class NoCreeperWorldDamage extends SubModule implements Listener {
     public NoCreeperWorldDamage(MasterModule plugin) { super(plugin); }
 

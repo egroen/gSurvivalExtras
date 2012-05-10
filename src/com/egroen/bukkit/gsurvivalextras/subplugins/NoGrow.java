@@ -13,6 +13,9 @@ import com.egroen.bukkit.gsurvivalextras.configuration.*;
 import com.egroen.bukkit.gsurvivalextras.MasterModule;
 import com.egroen.bukkit.gsurvivalextras.SubModule;
 
+/*
+ * Not finished, currently only reading data.
+ */
 public class NoGrow extends SubModule implements Listener {
 	private Config grow = ConfigManager.getInstance().loadConfig("nogrowGrowth.yml");
 

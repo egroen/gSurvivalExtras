@@ -7,6 +7,13 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockRedstoneEvent;
 
+/**
+ * Receiver for SWRS
+ * 
+ * Just passes the power trough.
+ * 
+ * @author egroen
+ */
 public class Receiver implements Listener {
 
 	@EventHandler

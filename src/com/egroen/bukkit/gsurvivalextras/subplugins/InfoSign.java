@@ -21,6 +21,13 @@ import com.egroen.bukkit.gsurvivalextras.command.CommandManager;
 import com.egroen.bukkit.gsurvivalextras.configuration.Config;
 import com.egroen.bukkit.gsurvivalextras.configuration.ConfigManager;
 
+/**
+ * InfoSign makes it possible to use signs as a 'story holder'
+ * When clicking it with a tool specified in the configuration it will
+ * play the text to the player.
+ * 
+ * @author egroen
+ */
 public class InfoSign extends SubModule implements CommandListener, Listener {
 
 	public InfoSign(MasterModule plugin) {

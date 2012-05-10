@@ -12,7 +12,18 @@ import org.bukkit.event.block.SignChangeEvent;
 import com.egroen.bukkit.gsurvivalextras.MasterModule;
 import com.egroen.bukkit.gsurvivalextras.SubModule;
 import com.egroen.bukkit.gsurvivalextras.subplugins.swrs.*;
-
+/**
+ * SWRS - Simple Wireless RedStone
+ * 
+ * This makes it possible to use wireless redstone.
+ * Gives a real basic support, nothing fancy.
+ * 
+ * Currently supports receiver(redstone) and sensor(player movement above sign)
+ * They will make a defined transmitter turn on.
+ * 
+ * Only works in the same world since it stores its data on the receiver/sensor sign (coords only)
+ * @author egroen
+ */
 public class SWRS extends SubModule implements Listener {
 	
 	public SWRS(MasterModule plugin) {

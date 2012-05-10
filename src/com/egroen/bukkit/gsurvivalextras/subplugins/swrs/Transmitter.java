@@ -4,6 +4,14 @@ import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 
+/**
+ * Transmitter for SWRS
+ * 
+ * The transmitter is a block that only knows his state and position.
+ * It does not now what triggers him, so multiple sources can give trouble (2 on, 1 goes down, transmitter goes down)
+ * @author egroen
+ *
+ */
 public class Transmitter {
 	
 	private Transmitter() { }

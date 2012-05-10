@@ -3,6 +3,14 @@ package com.egroen.bukkit.gsurvivalextras.configuration;
 import java.util.HashMap;
 import org.bukkit.plugin.java.JavaPlugin;
 
+/**
+ * ConfigManager - Keeps the configs together
+ * Yalm type configuration manager
+ * Just caches configs so the remain for re-request.
+ * 
+ * @author egroen
+ *
+ */
 public class ConfigManager {
 	private static ConfigManager _singleton = null;
 	public static void install(JavaPlugin plugin) {

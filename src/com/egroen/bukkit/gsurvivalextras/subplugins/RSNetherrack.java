@@ -10,6 +10,14 @@ import org.bukkit.event.block.BlockRedstoneEvent;
 import com.egroen.bukkit.gsurvivalextras.MasterModule;
 import com.egroen.bukkit.gsurvivalextras.SubModule;
 
+/**
+ * RSNetherrack
+ * 
+ * Makes it possible to light/extinguish netherrack using redstone.
+ * Power on -> fire on.
+ * 
+ * @author egroen
+ */
 public class RSNetherrack extends SubModule implements Listener {
 
 	public RSNetherrack(MasterModule plugin) {
