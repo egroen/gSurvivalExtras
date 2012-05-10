@@ -1,0 +1,8 @@
+settings:
+  readTool: BOOK
+  editTool: PAPER
+  delay: 70
+data: {}
+# [worldUID]:
+#    locationVector:
+#    - list of lines

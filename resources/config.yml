@@ -1,0 +1,19 @@
+# mods:
+#   - com.egroen.bukkit.gsurvivalextras.subplugins.HidePlayer (hides all players and stuff)
+#   - com.egroen.bukkit.gsurvivalextras.subplugins.SWRS (Simple Wireless RedStone)
+#   - com.egroen.bukkit.gsurvivalextras.subplugins.BlockControl (controls if block may be altered)
+#   - com.egroen.bukkit.gsurvivalextras.subplugins.RSNetherrack (Enables netherrack lighting/extinguishing trough RS)
+#   - com.egroen.bukkit.gsurvivalextras.subplugins.InfoSign (right-click specified signs with book for information)
+#   - com.egroen.bukkit.gsurvivalextras.subplugins.AdminTeller (messages admins on certain events like entering areas)  -- ?
+mods:
+- com.egroen.bukkit.gsurvivalextras.subplugins.RSNetherrack
+- com.egroen.bukkit.gsurvivalextras.subplugins.NoGrow
+- com.egroen.bukkit.gsurvivalextras.subplugins.SWRS
+- com.egroen.bukkit.gsurvivalextras.subplugins.NoCreeperWorldDamage
+- com.egroen.bukkit.gsurvivalextras.subplugins.InfoSign
+
+modsettings:
+  nogrow:
+    materials:
+      - WHEAT
+      - CACTUS

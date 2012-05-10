@@ -1,0 +1,19 @@
+name: gSurvivalExtras
+main: com.egroen.bukkit.gsurvivalextras.GSurvivalExtras
+version: 0.1
+description: Survival extra features
+
+# list met mods die geladen moeten worden
+# mods inheritten SubPlugin interface
+# implementeren mogelijk Listener, wanneer ze dat doen worden ze automatisch geregistreerd
+# main onthoudt dev-mode
+# main onthoudt player role (admin/spectator/player)
+# main ontvangt commando, welke die op 2de argument reroute naar submod (tenzei eigen ofc)
+
+# mods:
+#   - com.egroen.bukkit.gsurvivalextras.subplugins.HidePlayer (hides all players and stuff)
+#   - com.egroen.bukkit.gsurvivalextras.subplugins.SWRS (Simple Wireless RedStone)
+#   - com.egroen.bukkit.gsurvivalextras.subplugins.BlockControl (controls if block may be altered) 'breakableBlocks' + user-placed blocks
+#   - com.egroen.bukkit.gsurvivalextras.subplugins.RSNetherrack (Enables netherrack lighting/extinguishing trough RS)
+#   - com.egroen.bukkit.gsurvivalextras.subplugins.InfoSign (right-click specified signs with book for information)
+#   - com.egroen.bukkit.gsurvivalextras.subplugins.AdminTeller (messages admins on certain events like entering areas)  -- ?

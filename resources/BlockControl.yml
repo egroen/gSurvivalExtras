@@ -1,0 +1,18 @@
+# BlockControl.yml
+# - Erik Groen
+#
+# settings.blocklistAsAllowed: boolean
+#       true: Players are able to break listed blocks
+#       false: Players are unable to break listed blocks (unless placed by a player)
+# settings.playerPlacedCanBreak: boolean
+#       true: Players can break other players blocks
+#       false: no difference between world or player placed
+
+settings:
+  playerPlacedCanBreak: true
+  blocklistAsAllowed: false
+
+blocks:
+- badrock
+- blaat
+- sandstone:1
