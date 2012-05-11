@@ -31,7 +31,8 @@ The permissions are not fully integrated yet!
 * infosign.* - Allow user to all permissions (not implemented)
 
 ### Commands
-> Story manipulations happens in the memory, to finish it run save!
+> Story manipulations happens in the memory, to finish it run save!  
+
 * /infosign print [from [to]] - Prints the 'story'
 * /infosign add[:index] <text> - Adds a new line (on index)
 * /infosign set <index> <text> - Changes a specified line
