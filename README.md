@@ -1,9 +1,10 @@
 gSurvivalExtras
 ==========
 
-Minecraft Bukkit plugin for some smaller sub-plugins  
+Minecraft Bukkit plugin for some smaller sub-plugins    
 
->> Since the submodules do not pre-register permissions they default to OP
+
+> Since the submodules do not pre-register permissions they default to OP  
 
 ### Configuration
 
@@ -28,6 +29,16 @@ The permissions are not fully integrated yet!
 * infosign.edit - Allow user to use edit-tool/commands
 * infosign.reload - Allow user to reload the config (not implemented)
 * infosign.* - Allow user to all permissions (not implemented)
+
+### Commands
+> Story manipulations happens in the memory, to finish it run save!
+* /infosign print [from [to]] - Prints the 'story'
+* /infosign add[:index] <text> - Adds a new line (on index)
+* /infosign set <index> <text> - Changes a specified line
+* /infosign remove <index> - Removes a specified line
+* /infosign clear - Removes sign from infosign/clear list
+* /infosign save - Saves to disk
+* /infosign reload - Reloads from disk
 
 ### Tricks
 To make some more tension let the next line wait longer then expected by adding spaces and a backtick.  
